@@ -7,11 +7,17 @@ Each of the packages in this library serve a specific purpose, typically related
 
 ### DatabaseUtils
 **Problem:** The standard `ResultSet` class is forward-only meaning it can only be read once.  
-**Solution:** Easier conversion between `ResultSet` and `CachedRowSet`, `ResultSet`'s non-forward-only cousin. 
+**Solution:** Easier conversion between `ResultSet` and `CachedRowSet`, `ResultSet`'s non-forward-only cousin.  
+
+### DoubleString
+**Problem:** Occasionally, you need to return two Strings from a method.  
+**Solution:** A simple class that holds two Strings and provides a few utility methods.  
+              Since, these are Strings, getters and setters can be utilized to manipulate the internal values.
 
 ### JSONParser & JSONTree
-**Problem:** Parsing JSON data can be cumbersome and error-prone.
-**Solution:** A representation of JSON data as a tree structure, allowing for easy manipulation and access to data.
+**Problem:** Parsing JSON data can be cumbersome and error-prone.  
+**Solution:** A representation of JSON data as a tree structure, allowing for easy manipulation and access to data.  
+**Note:** This is WIP and may not be fully functional yet.  
 
 ## Notice
 This library is in development and may not function as intended for you yet.  
