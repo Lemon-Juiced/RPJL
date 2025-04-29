@@ -17,8 +17,11 @@ Each of the packages in this library serve a specific purpose, typically related
 ### JSONParser & JSONTree
 **Problem:** Parsing JSON data can be cumbersome and error-prone.  
 **Solution:** A representation of JSON data as a tree structure, allowing for easy manipulation and access to data.  
-**Note:** This is WIP and may not be fully functional yet.  
+**Note:** <span style="background-color: red;">WIP</span>
 
 ## Notice
-This library is in development and may not function as intended for you yet.  
+This library is in development and may not function as intended.  
+Any portions denoted with a <span style="background-color: red;">WIP</span>, are not ready to use or not tested.  
+If you care for code stability and functionality avoid these portions of the library.  
+
 **Use at your own risk.**
