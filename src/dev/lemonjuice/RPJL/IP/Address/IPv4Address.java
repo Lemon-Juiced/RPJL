@@ -1,4 +1,4 @@
-package dev.lemonjuice.RPJL.IP;
+package dev.lemonjuice.RPJL.IP.Address;
 
 /**
  * Utility class that represents an IPv4 address.
@@ -9,6 +9,7 @@ package dev.lemonjuice.RPJL.IP;
  * @param net4 The fourth octet of the IPv4 address.
  */
 public record IPv4Address(int net1, int net2, int net3, int net4) {
+
     /**
      * Converts the IPv4 address to a string representation.
      *

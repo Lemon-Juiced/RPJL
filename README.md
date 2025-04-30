@@ -5,7 +5,13 @@ professional endeavors, but is also suitable for personal projects.
 ## Features (Problems & Solutions)
 Each of the packages in this library serve a specific purpose, typically related to a specific problem.
 
-### CIDR (IPv4 and IPv6)
+### IP
+Utilities for working with IP addresses, including conversion between different formats and CIDR notation.
+#### Address (IPv4 and IPv6)
+**Problem:** Java does not natively support IP addresses in an easily-manipulable format.
+**Solution:** A set of classes that can convert between IP addresses and their string representations.  
+              This includes both IPv4 and IPv6 addresses.
+#### CIDR (IPv4 and IPv6)
 **Problem:** Converting between CIDR notation and IP addresses can be tedious.  
 **Solution:** A set of classes that can convert between CIDR notation and IP addresses.  
               This includes both IPv4 and IPv6 addresses.  

@@ -1,4 +1,4 @@
-package dev.lemonjuice.RPJL.CIDR;
+package dev.lemonjuice.RPJL.IP.CIDR;
 
 /**
  * Utility class for commonalities in IPv4 and IPv6 CIDR address manipulation.
