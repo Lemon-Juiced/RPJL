@@ -5,7 +5,7 @@ package dev.lemonjuice.RPJL.CIDR;
  *
  * This also allows for arbitrary maxPrefixLength values to be passed in, which is useful for subranges.
  */
-public class Common {
+public class CIDRCommon {
     public static final int MAX_IPV4_PREFIX_LENGTH = 32;
     public static final int MAX_IPV6_PREFIX_LENGTH = 128;
 
