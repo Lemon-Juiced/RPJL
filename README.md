@@ -5,6 +5,12 @@ professional endeavors, but is also suitable for personal projects.
 ## Features (Problems & Solutions)
 Each of the packages in this library serve a specific purpose, typically related to a specific problem.
 
+### CIDR (IPv4 and IPv6)
+**Problem:** Converting between CIDR notation and IP addresses can be tedious.
+**Solution:** A set of classes that can convert between CIDR notation and IP addresses.  
+              This includes both IPv4 and IPv6 addresses.  
+              Additionally, a Common Class is provided, which can handle arbitrary ranges.
+
 ### DatabaseUtils
 **Problem:** The standard `ResultSet` class is forward-only meaning it can only be read once.  
 **Solution:** Easier conversion between `ResultSet` and `CachedRowSet`, `ResultSet`'s non-forward-only cousin.  
