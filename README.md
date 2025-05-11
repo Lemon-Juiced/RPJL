@@ -5,6 +5,22 @@ professional endeavors, but is also suitable for personal projects.
 ## Features (Problems & Solutions)
 Each of the packages in this library serve a specific purpose, typically related to a specific problem.
 
+### Color
+Utilities for working with colors in Java, including conversion between different color formats and manipulation of colors.   
+**Note:** 🔴 WIP (Incomplete)  
+
+#### Color and ColorString
+**Problem:** Java's built-in coloring for console output is limited to ANSI colors.  
+**Solution:** A set of classes that can convert between RGB and Hex, as well as a class for coloring console output.  
+              This includes a `ColorString` class that can be used to color text in the console.  
+              Additionally, a `Color` class is provided for manipulating colors in Java.  
+
+#### CMYKColor
+**Problem:** Java does not natively support CMYK colors.  
+**Solution:** A set of classes that can convert between RGB and CMYK colors.  
+              This includes a `CMYKColor` class that can be used to manipulate CMYK colors in Java.   
+              The `CMYKColor` can also be easily converted back to the `Color` class.   
+
 ### IP
 Utilities for working with IP addresses, including conversion between different formats and CIDR notation.
 #### Address (IPv4 and IPv6)
