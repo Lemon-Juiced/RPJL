@@ -11,7 +11,7 @@ Utilities for working with colors in Java, including conversion between differen
 
 #### Color and ColorString
 **Problem:** Java's built-in coloring for console output is limited to ANSI colors.  
-**Solution:** 
+**Solution:**  
 - A set of classes that can convert between RGB and Hex, as well as a class for coloring console output.  
 - This includes a `ColorString` class that can be used to color text in the console.  
 - Additionally, a `Color` class is provided for manipulating colors in Java.  
@@ -24,26 +24,26 @@ Utilities for working with colors in Java, including conversion between differen
 - The `CMYKColor` can also be easily converted back to the `Color` class.   
 
 ### IP
-Utilities for working with IP addresses, including conversion between different formats and CIDR notation.
+Utilities for working with IP addresses, including conversion between different formats and CIDR notation.  
 
 #### Address (IPv4 and IPv6)
-**Problem:** Java does not natively support IP addresses in an easily-manipulable format.
-**Solution:** 
+**Problem:** Java does not natively support IP addresses in an easily-manipulable format.  
+**Solution:**  
 - A set of classes that can convert between IP addresses and their string representations. (This includes both IPv4 and IPv6 addresses.)   
 
 #### CIDR (IPv4 and IPv6)
 **Problem:** Converting between CIDR notation and IP addresses can be tedious.  
-**Solution:** 
+**Solution:**  
 - A set of classes that can convert between CIDR notation and IP addresses. (This includes both IPv4 and IPv6 addresses.)  
-- Additionally, a Common Class is provided, which can handle arbitrary ranges.
+- Additionally, a Common Class is provided, which can handle arbitrary ranges.  
 
 ### DatabaseUtils
 **Problem:** The standard `ResultSet` class is forward-only meaning it can only be read once.  
 **Solution:** Easier conversion between `ResultSet` and `CachedRowSet`, `ResultSet`'s non-forward-only cousin.  
 
 ### DoubleString
-**Problem:** Occasionally, you need to return two Strings from a method.  
-**Solution:** 
+**Problem:** Occasionally, you need to return two Strings from a method.   
+**Solution:**  
 - A simple class that holds two Strings and provides a few utility methods.  
 - Since, these are Strings, getters and setters can be utilized to manipulate the internal values.  
 
